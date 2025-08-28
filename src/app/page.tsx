@@ -32,7 +32,7 @@ export default async function Home({
             <div className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-4 py-2 rounded-lg shadow-md">
               <BookOpen className="h-6 w-6" />
               <h1 className="text-3xl font-bold font-headline tracking-tight sm:text-4xl">
-                LexiconLookup
+                Dictionary
               </h1>
             </div>
             <p className="text-muted-foreground md:text-lg max-w-2xl mx-auto">
@@ -61,7 +61,7 @@ export default async function Home({
           {!word && !error && (
               <Card className="w-full text-center animate-fade-in">
                   <CardHeader>
-                      <CardTitle>Welcome to LexiconLookup</CardTitle>
+                      <CardTitle>Welcome to Dictionary</CardTitle>
                       <CardDescription>
                           Enter a word in the search bar above to get started.
                       </CardDescription>
